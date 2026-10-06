@@ -1,0 +1,35 @@
+# Python environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Local documents and exports
+samples/
+output/
+*.pdf
+*.xlsx
+*.xls
+*.csv
+
+# Build output and installers
+build/
+dist/
+installer-output/
+*.exe
+*.msi
+
+# Local secrets and settings
+.env
+.env.*
+!.env.example
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# IDE settings
+.idea/
+.vscode/
